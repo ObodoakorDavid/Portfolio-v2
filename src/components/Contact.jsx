@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { IoMailOpenOutline } from "react-icons/io5";
-import { FaTwitter, FaWhatsapp, FaPhone } from "react-icons/fa";
+import { FaTwitter, FaWhatsapp, FaPhone, FaLinkedin } from "react-icons/fa";
 import gsap from "gsap";
 
 const Contact = () => {
@@ -15,7 +15,12 @@ const Contact = () => {
     },
     { id: 2, link: "https://x.com/unseendavid", icon: <FaTwitter /> },
     { id: 3, link: "https://wa.me/+2348182921822", icon: <FaWhatsapp /> },
-    { id: 4, link: "tel:+2348182921822", icon: <FaPhone /> },
+    {
+      id: 4,
+      link: "https://linkedin.com/in/david-obodoakor-369b1b235",
+      icon: <FaLinkedin />,
+    },
+    { id: 5, link: "tel:+2348182921822", icon: <FaPhone /> },
   ];
 
   const handleMouseEnter = (element) => {
@@ -44,7 +49,7 @@ const Contact = () => {
   return (
     <div id="contact" className="pt-20">
       <h3 className="text-center">Get In Touch</h3>
-      <div className="flex justify-center gap-10 py-16">
+      <div className="flex justify-center gap-4 md:gap-10 py-16">
         {contactsIcons.map((icon, i) => {
           return (
             <a

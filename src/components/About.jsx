@@ -47,15 +47,17 @@ const About = () => {
       <div className="py-4 text-left text-xl sm:text-2xl">
         <img ref={imageRef} src={memoji} className=" w-40 mx-auto" alt="" />
         <p ref={paragraphRef} className=" pb-4 -translate-y-[50px] opacity-0">
-          👋 Hey there, I'm David — a budding FullStack Web Developer, currently
-          navigating and learning the web one line of code at a time, eagerly
-          willing to learn anything that has to do with building and making the
-          web look good and also function optimally.
+          👋 Hey there, I'm David — a budding FullStack Web Developer with a
+          dual passion for coding and teaching. Armed with two years of teaching
+          experience, I not only craft efficient and visually appealing websites
+          but i have also played a pivotal role in helping hundreds of
+          individuals embark on their journey into web development.
         </p>
         <p ref={paragraphRef2} className="-translate-y-[50px] opacity-0">
-          By day, I'm weaving digital wonders as a web developer and by night
-          i'm binge watch my favorite animes. Teaching is my jam too — your
-          go-to tutor for navigating the vast realm of web development.
+          As a seasoned tutor, I specialize in navigating the expansive
+          landscape of web development, offering expertise honed through
+          practical experience. Beyond the intricacies of coding, I find joy in
+          guiding others through the dynamic world of web technologies.
         </p>
         <a
           href="#contact"
