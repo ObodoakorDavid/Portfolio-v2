@@ -23,8 +23,9 @@ import socialMediaDashboard from "./images/social-media-dashboard.png";
 import jobListings from "./images/Job-listings.png";
 import eCommerceProductPage from "./images/e-commerce-product-page.png";
 import IPAddressTracker from "./images/IP-Address-Tracker.png";
-import ExpenseChartComponent from './images/Expenses-Chart-Component.png'
-import movieApp from './images/movie-app.png'
+import ExpenseChartComponent from "./images/Expenses-Chart-Component.png";
+import movieApp from "./images/movie-app.png";
+import gtdipe from "../assets/images/Screenshot 2025-02-07 153004.png";
 
 // =======================
 
@@ -56,5 +57,6 @@ export const images = {
   eCommerceProductPage,
   IPAddressTracker,
   ExpenseChartComponent,
-  movieApp
+  movieApp,
+  gtdipe,
 };

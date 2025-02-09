@@ -47,22 +47,16 @@ const About = () => {
       <div className="py-4 text-left text-xl sm:text-2xl">
         <img ref={imageRef} src={memoji} className=" w-40 mx-auto" alt="" />
         <p ref={paragraphRef} className=" pb-4 -translate-y-[50px] opacity-0">
-          👋 Hey there, I'm David — a budding FullStack Web Developer with a
-          dual passion for coding and teaching. Armed with two years of teaching
-          experience, I not only craft efficient and visually appealing websites
-          but i have also played a pivotal role in helping hundreds of
-          individuals embark on their journey into web development.
-        </p>
-        <p ref={paragraphRef2} className="-translate-y-[50px] opacity-0">
-          As a seasoned tutor, I specialize in navigating the expansive
-          landscape of web development, offering expertise honed through
-          practical experience. Beyond the intricacies of coding, I find joy in
-          guiding others through the dynamic world of web technologies.
+          I'm a passionate and creative developer with a focus on building
+          impactful digital solutions. I build user-friendly websites and
+          applications that solve problems and elevate user experiences. With a
+          strong eye for design and attention to detail, I thrive on bringing
+          ideas to life through clean, efficient, and scalable code.
         </p>
         <a
           href="#contact"
           ref={buttonRef}
-          className="border-gray-500 max-w-fit cursor-pointer -translate-y-full opacity-0 border-2 flex items-center gap-2 hover:gap-6 px-4 py-1 mt-8 rounded-md hover:text-white hover:bg-gray-700 hover:border-gray-700 hover:transition-all ease-in-out"
+          className="border-gray-500 max-w-fit cursor-pointer -translate-y-full opacity-0 border-2 flex items-center gap-2 px-4 py-1 mt-8 rounded-md text-gray-700 transition-all duration-300 ease-in-out hover:gap-6 hover:text-white hover:bg-gray-700 hover:border-gray-700"
         >
           Get In Touch <BsFillSendArrowUpFill />
         </a>

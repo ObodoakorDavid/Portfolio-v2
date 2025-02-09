@@ -6,9 +6,10 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaGithub,
+  FaReact,
 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
-import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoPostgresql, BiLogoTypescript } from "react-icons/bi";
 import {
   SiSequelize,
   SiTailwindcss,
@@ -16,11 +17,13 @@ import {
   SiMongoose,
   SiExpress,
   SiSwagger,
+  SiNestjs,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { DiDjango } from "react-icons/di";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { RiNextjsFill } from "react-icons/ri";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -47,6 +50,18 @@ const Skills = () => {
       icon: <IoLogoJavascript className="text-xl sm:text-2xl md:text-3xl" />,
     },
     {
+      name: "TypeScript",
+      icon: <BiLogoTypescript className="text-xl sm:text-2xl md:text-3xl" />,
+    },
+    {
+      name: "ReactJs",
+      icon: <FaReact className="text-xl sm:text-2xl md:text-3xl" />,
+    },
+    {
+      name: "NextJs",
+      icon: <RiNextjsFill className="text-xl sm:text-2xl md:text-3xl" />,
+    },
+    {
       name: "Python",
       icon: <FaPython className="text-xl sm:text-2xl md:text-3xl" />,
     },
@@ -61,6 +76,10 @@ const Skills = () => {
     {
       name: "ExpressJs",
       icon: <SiExpress className="text-xl sm:text-2xl md:text-3xl" />,
+    },
+    {
+      name: "NestJs",
+      icon: <SiNestjs className="text-xl sm:text-2xl md:text-3xl" />,
     },
     {
       name: "Mongoose",

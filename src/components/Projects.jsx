@@ -13,35 +13,39 @@ const Projects = () => {
         {data.ReactData.map((project, i) => {
           return (
             <div
-              // onMouseEnter={() => {
-              //   gsap.to(cards.current[i], {
-              //     rotationY: -180,
-              //     transformStyle: "preserve-3d",
-              //   });
-              // }}
-              // onMouseLeave={() => {
-              //   gsap.to(cards.current[i], {
-              //     rotationY: 0,
-              //     transformStyle: "preserve-3d",
-              //   });
-              // }}
               ref={(el) => (cards.current[i] = el)}
               key={project.id}
-              className=" shadow hover:shadow-lg transition-all duration-300 ease-in overflow-hidden rounded"
+              className=" flex flex-col h-full shadow hover:shadow-lg transition-all duration-300 ease-in overflow-hidden rounded"
             >
               <img src={project.img} alt="" className="w-full object-cover" />
-              <div className="p-4 flex flex-col gap-4 ">
+              <div className="p-4 flex flex-col gap-4 h-full ">
                 <p className=" text-gray-600 text-2xl md:text-3xl font-medium hover:text-gray-800 cursor-pointer">
                   {project.name}
                 </p>
-                <div className="flex gap-3 text-sm">
-                  <a
-                    className="border text-gray-900 flex gap-2 items-center font-medium px-2 py-1 rounded border-gray-600 hover:border-gray-800"
-                    href={project.Github}
-                  >
-                    <BsGithub />
-                    Github
-                  </a>
+                <p className="text-lg ">{project.description}</p>
+                <ul className="flex flex-wrap gap-2">
+                  <span className="text-xl font-semibold">Built With:</span>
+                  {project.tools.map((tool) => {
+                    return (
+                      <li
+                        key={tool}
+                        className="text-sm bg-gray-100 px-4 py-1 rounded-full"
+                      >
+                        {tool}
+                      </li>
+                    );
+                  })}
+                </ul>
+                <div className="flex gap-3 text-sm h-full items-end">
+                  {project.Github && (
+                    <a
+                      className="border text-gray-900 flex gap-2 items-center font-medium px-2 py-1 rounded border-gray-600 hover:border-gray-800"
+                      href={project.Github}
+                    >
+                      <BsGithub />
+                      Github
+                    </a>
+                  )}
                   <a
                     className="border text-gray-900 flex gap-2 items-center font-medium px-3 py-1 rounded border-gray-600 hover:border-gray-800"
                     href={project.LiveDemo}
