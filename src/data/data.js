@@ -3,7 +3,7 @@ import { images } from "../assets/images";
 
 const ReactData = [
   {
-    id: 5,
+    id: 1,
     name: "G.T.DÍPÈ",
     description:
       "Designed and developed an interactive author website to showcase books and engage readers. The platform includes a dynamic book catalog, author bio section, and a newsletter subscription feature for email marketing, enhancing audience connection and content distribution.",
@@ -13,7 +13,17 @@ const ReactData = [
     tools: ["React", "Tailwind", "Zustand", "Express", "Nodejs", "Brevo"],
   },
   {
-    id: 1,
+    id: 2,
+    name: "Brethren College Chika",
+    description:
+      "A modern and responsive website developed for Brethren College Chika to showcase school programs, admissions, and frequently asked questions. It includes dynamic sections for program details, staff details, and an engaging UI to support a seamless user experience.",
+    Github: "",
+    LiveDemo: "https://www.brethrencollegechinka.org/",
+    img: images.brethrenCollege, // make sure you have this image in your `images` object
+    tools: ["React", "Tailwind", "Zustand", "Brevo"],
+  },
+  {
+    id: 3,
     name: "Movie-App",
     description:
       "A responsive movie application that allows users to search, view, and manage their favorite movies. Built with a scalable backend and interactive UI for a seamless user experience.",
@@ -30,7 +40,7 @@ const ReactData = [
     img: images.movieApp,
   },
   {
-    id: 2,
+    id: 4,
     name: "Countries Details",
     description:
       "An informative application that provides detailed information about countries worldwide, including population, region, and capital. Features a clean and intuitive UI.",
@@ -40,7 +50,7 @@ const ReactData = [
     img: images.FMRestCountriesApi,
   },
   {
-    id: 3,
+    id: 5,
     name: "Job Listings",
     description:
       "A static job listing site that allows users to filter job opportunities based on role, level, and technologies. Built with responsive layouts for a great user experience.",
@@ -50,7 +60,7 @@ const ReactData = [
     img: images.jobListings,
   },
   {
-    id: 4,
+    id: 6,
     name: "IP Address Tracker",
     description:
       "A tool for tracking the location and details of any IP address. Integrated with Leaflet.js for map visualization.",
@@ -59,33 +69,34 @@ const ReactData = [
     tools: ["React", "Bootstrap", "Leafletjs"],
     img: images.IPAddressTracker,
   },
-  {
-    id: 5,
-    name: "Multi Step Form",
-    description:
-      "A dynamic multi-step form application designed to capture complex user data seamlessly. Provides form validation and navigation between steps.",
-    Github: "https://github.com/ObodoakorDavid/FM-Multi-Step-Form",
-    LiveDemo: "https://fm-multi-step-form-main-0.netlify.app/",
-    img: images.MultiStepForm,
-    tools: [
-      "React",
-      "Express",
-      "Nodejs",
-      "Bootstrap",
-      "React-hook-form",
-      "Conext API",
-    ],
-  },
-  {
-    id: 6,
-    name: "Todo App",
-    description:
-      "A simple yet functional to-do list application that allows users to manage tasks efficiently. Features task addition, deletion, and completion toggling.",
-    Github: "https://github.com/ObodoakorDavid/FM-Todo-App",
-    LiveDemo: "https://fm-todo-app-main.netlify.app/",
-    tools: ["React", "Bootstrap"],
-    img: images.FMTodoApp,
-  },
+  // {
+  //   id: 7,
+  //   name: "Multi Step Form",
+  //   description:
+  //     "A dynamic multi-step form application designed to capture complex user data seamlessly. Provides form validation and navigation between steps.",
+  //   Github: "https://github.com/ObodoakorDavid/FM-Multi-Step-Form",
+  //   LiveDemo: "https://fm-multi-step-form-main-0.netlify.app/",
+  //   img: images.MultiStepForm,
+  //   tools: [
+  //     "React",
+  //     "Express",
+  //     "Nodejs",
+  //     "Bootstrap",
+  //     "React-hook-form",
+  //     "Conext API",
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   name: "Todo App",
+  //   description:
+  //     "A simple yet functional to-do list application that allows users to manage tasks efficiently. Features task addition, deletion, and completion toggling.",
+  //   Github: "https://github.com/ObodoakorDavid/FM-Todo-App",
+  //   LiveDemo: "https://fm-todo-app-main.netlify.app/",
+  //   tools: ["React", "Bootstrap"],
+  //   img: images.FMTodoApp,
+  // },
+
   // {
   //   id: 7,
   //   name: "Random Advice Generator",

@@ -49,6 +49,7 @@ const Projects = () => {
                   <a
                     className="border text-gray-900 flex gap-2 items-center font-medium px-3 py-1 rounded border-gray-600 hover:border-gray-800"
                     href={project.LiveDemo}
+                    target="_blank"
                   >
                     {/* <BsBoxArrowUpRight className="hover:text-sm" /> */}
                     <FaExternalLinkAlt className="hover:text-sm" />

@@ -26,6 +26,7 @@ import IPAddressTracker from "./images/IP-Address-Tracker.png";
 import ExpenseChartComponent from "./images/Expenses-Chart-Component.png";
 import movieApp from "./images/movie-app.png";
 import gtdipe from "../assets/images/Screenshot 2025-02-07 153004.png";
+import brethrenCollege from "./images/brethrencollege.png";
 
 // =======================
 
@@ -59,4 +60,5 @@ export const images = {
   ExpenseChartComponent,
   movieApp,
   gtdipe,
+  brethrenCollege,
 };
