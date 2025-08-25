@@ -4,16 +4,54 @@ import { images } from "../assets/images";
 const ReactData = [
   {
     id: 1,
-    name: "G.T.DÍPÈ",
+    name: "Talents527",
     description:
-      "Designed and developed an interactive author website to showcase books and engage readers. The platform includes a dynamic book catalog, author bio section, and a newsletter subscription feature for email marketing, enhancing audience connection and content distribution.",
+      "A platform where employers can find and hire skilled employees and freelancers, and employees can find and apply for job openings.",
     Github: "",
-    LiveDemo: "https://www.gtdipe.com",
-    img: images.gtdipe,
-    tools: ["React", "Tailwind", "Zustand", "Express", "Nodejs", "Brevo"],
+    LiveDemo: "https://www.talents527.com/",
+    img: images.talents527, // make sure you have this image in your `images` object
+    tools: [
+      "React",
+      "Tailwind",
+      "Zustand",
+      "Brevo",
+      "Express",
+      "Nodejs",
+      "MongoDB",
+      "Paystack",
+    ],
   },
   {
     id: 2,
+    name: "Logira LMS",
+    description:
+      "A Learning Management System (LMS) designed to provide an intuitive and interactive learning experience. The platform includes features for course management, student assessment, student progress tracking and certificate issuing making it easy to create and manage online courses.",
+    Github: "",
+    LiveDemo: "https://www.surefundxcapital.com/",
+    img: images.logiralms, // make sure you have this image in your `images` object
+    tools: [
+      "React",
+      "Tailwind",
+      "Zustand",
+      "Brevo",
+      "Express",
+      "Nodejs",
+      "MongoDB",
+      "TypeScript",
+    ],
+  },
+  {
+    id: 3,
+    name: "SureFundX",
+    description:
+      "A responsive web application designed for workers to access loans and manage their finances. The platform includes secure user authentication, loan applications, and a dashboard for users to view their loan status and make payments.",
+    Github: "",
+    LiveDemo: "https://www.surefundxcapital.com/",
+    img: images.surefundx, // make sure you have this image in your `images` object
+    tools: ["React", "TYpeScript", "Tailwind"],
+  },
+  {
+    id: 4,
     name: "Brethren College Chika",
     description:
       "A modern and responsive website developed for Brethren College Chika to showcase school programs, admissions, and frequently asked questions. It includes dynamic sections for program details, staff details, and an engaging UI to support a seamless user experience.",
@@ -23,41 +61,14 @@ const ReactData = [
     tools: ["React", "Tailwind", "Zustand", "Brevo"],
   },
   {
-    id: 3,
-    name: "Movie-App",
-    description:
-      "A responsive movie application that allows users to search, view, and manage their favorite movies. Built with a scalable backend and interactive UI for a seamless user experience.",
-    Github: "https://github.com/ObodoakorDavid/Node-Movie-App-Client",
-    LiveDemo: "https://fm-movie-app.netlify.app/",
-    tools: [
-      "React",
-      "Express",
-      "Nodejs",
-      "Bootstrap",
-      "React-hook-form",
-      "Conext API",
-    ],
-    img: images.movieApp,
-  },
-  {
-    id: 4,
-    name: "Countries Details",
-    description:
-      "An informative application that provides detailed information about countries worldwide, including population, region, and capital. Features a clean and intuitive UI.",
-    Github: "https://github.com/ObodoakorDavid/FM-rest-countries-api",
-    LiveDemo: "https://rest-countries-api-main.netlify.app/",
-    tools: ["React", "Bootstrap", "React-spinners"],
-    img: images.FMRestCountriesApi,
-  },
-  {
     id: 5,
-    name: "Job Listings",
+    name: "G.T.DÍPÈ",
     description:
-      "A static job listing site that allows users to filter job opportunities based on role, level, and technologies. Built with responsive layouts for a great user experience.",
-    Github: "https://github.com/ObodoakorDavid/FM-static-job-listings",
-    LiveDemo: "https://fm-job-listings-0.netlify.app/",
-    tools: ["React", "Bootstrap"],
-    img: images.jobListings,
+      "Designed and developed an interactive author website to showcase books and engage readers. The platform includes a dynamic book catalog, author bio section, and a newsletter subscription feature for email marketing, enhancing audience connection and content distribution.",
+    Github: "",
+    LiveDemo: "https://www.gtdipe.com",
+    img: images.gtdipe,
+    tools: ["React", "Tailwind", "Zustand", "Express", "Nodejs", "Brevo"],
   },
   {
     id: 6,
@@ -69,6 +80,54 @@ const ReactData = [
     tools: ["React", "Bootstrap", "Leafletjs"],
     img: images.IPAddressTracker,
   },
+
+  // {
+  //   id: 3,
+  //   name: "Movie-App",
+  //   description:
+  //     "A responsive movie application that allows users to search, view, and manage their favorite movies. Built with a scalable backend and interactive UI for a seamless user experience.",
+  //   Github: "https://github.com/ObodoakorDavid/Node-Movie-App-Client",
+  //   LiveDemo: "https://fm-movie-app.netlify.app/",
+  //   tools: [
+  //     "React",
+  //     "Express",
+  //     "Nodejs",
+  //     "Bootstrap",
+  //     "React-hook-form",
+  //     "Conext API",
+  //   ],
+  //   img: images.movieApp,
+  // },
+  // {
+  //   id: 4,
+  //   name: "Countries Details",
+  //   description:
+  //     "An informative application that provides detailed information about countries worldwide, including population, region, and capital. Features a clean and intuitive UI.",
+  //   Github: "https://github.com/ObodoakorDavid/FM-rest-countries-api",
+  //   LiveDemo: "https://rest-countries-api-main.netlify.app/",
+  //   tools: ["React", "Bootstrap", "React-spinners"],
+  //   img: images.FMRestCountriesApi,
+  // },
+  // {
+  //   id: 5,
+  //   name: "Job Listings",
+  //   description:
+  //     "A static job listing site that allows users to filter job opportunities based on role, level, and technologies. Built with responsive layouts for a great user experience.",
+  //   Github: "https://github.com/ObodoakorDavid/FM-static-job-listings",
+  //   LiveDemo: "https://fm-job-listings-0.netlify.app/",
+  //   tools: ["React", "Bootstrap"],
+  //   img: images.jobListings,
+  // },
+  // {
+  //   id: 6,
+  //   name: "IP Address Tracker",
+  //   description:
+  //     "A tool for tracking the location and details of any IP address. Integrated with Leaflet.js for map visualization.",
+  //   Github: "https://github.com/ObodoakorDavid/FM-IP-Address-Tracker",
+  //   LiveDemo: "https://fm-ip-address-tracker-main.netlify.app/",
+  //   tools: ["React", "Bootstrap", "Leafletjs"],
+  //   img: images.IPAddressTracker,
+  // },
   // {
   //   id: 7,
   //   name: "Multi Step Form",

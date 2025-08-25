@@ -47,11 +47,10 @@ const About = () => {
       <div className="py-4 text-left text-xl sm:text-2xl">
         <img ref={imageRef} src={memoji} className=" w-40 mx-auto" alt="" />
         <p ref={paragraphRef} className=" pb-4 -translate-y-[50px] opacity-0">
-          I'm a passionate and creative developer with a focus on building
-          impactful digital solutions. I build user-friendly websites and
-          applications that solve problems and elevate user experiences. With a
-          strong eye for design and attention to detail, I thrive on bringing
-          ideas to life through clean, efficient, and scalable code.
+          Hi There, I'm David - a software developer who loves building things
+          that solve real problems. I enjoy turning ideas into products,
+          teaching others what I've learned, and growing with every project I
+          work on.
         </p>
         <a
           href="#contact"

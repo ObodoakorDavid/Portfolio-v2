@@ -25,8 +25,13 @@ import eCommerceProductPage from "./images/e-commerce-product-page.png";
 import IPAddressTracker from "./images/IP-Address-Tracker.png";
 import ExpenseChartComponent from "./images/Expenses-Chart-Component.png";
 import movieApp from "./images/movie-app.png";
+import logiralms from "./images/logiralms.png";
+
+//
 import gtdipe from "../assets/images/Screenshot 2025-02-07 153004.png";
 import brethrenCollege from "./images/brethrencollege.png";
+import surefundx from "./images/surefundx.png";
+import talents527 from "./images/talents527.png";
 
 // =======================
 
@@ -61,4 +66,7 @@ export const images = {
   movieApp,
   gtdipe,
   brethrenCollege,
+  surefundx,
+  logiralms,
+  talents527,
 };
