@@ -27,7 +27,7 @@ const ReactData = [
     description:
       "A Learning Management System (LMS) designed to provide an intuitive and interactive learning experience. The platform includes features for course management, student assessment, student progress tracking and certificate issuing making it easy to create and manage online courses.",
     Github: "",
-    LiveDemo: "https://www.surefundxcapital.com/",
+    LiveDemo: "https://www.logiralms.com",
     img: images.logiralms, // make sure you have this image in your `images` object
     tools: [
       "React",
