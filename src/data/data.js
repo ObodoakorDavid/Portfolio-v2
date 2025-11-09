@@ -12,6 +12,7 @@ const ReactData = [
     img: images.talents527, // make sure you have this image in your `images` object
     tools: [
       "React",
+      "NextJs",
       "Tailwind",
       "Zustand",
       "Brevo",
@@ -19,6 +20,7 @@ const ReactData = [
       "Nodejs",
       "MongoDB",
       "Paystack",
+      "Motion",
     ],
   },
   {
@@ -38,48 +40,77 @@ const ReactData = [
       "Nodejs",
       "MongoDB",
       "TypeScript",
+      "Motion",
     ],
   },
   {
     id: 3,
+    name: "ICOP LMS",
+    description:
+      "ICOP Global LMS — a full-featured learning management system I built to deliver online courses and manage learners efficiently. It includes user authentication, course creation, progress tracking, quizzes, and certification — all within a clean, responsive interface designed for a smooth learning experience.",
+
+    LiveDemo: "https://lms.icopglobal.org",
+    tools: [
+      "React",
+      "Tailwind",
+      "Zustand",
+      "Brevo",
+      "Express",
+      "Nodejs",
+      "MongoDB",
+      "TypeScript",
+      "Motion",
+    ],
+    img: images.icoplms,
+  },
+  {
+    id: 4,
     name: "SureFundX",
     description:
       "A responsive web application designed for workers to access loans and manage their finances. The platform includes secure user authentication, loan applications, and a dashboard for users to view their loan status and make payments.",
     Github: "",
     LiveDemo: "https://www.surefundxcapital.com/",
     img: images.surefundx, // make sure you have this image in your `images` object
-    tools: ["React", "TYpeScript", "Tailwind"],
+    tools: ["React", "TypeScript", "Tailwind", "Zustand", "Brevo", "Motion"],
   },
   {
-    id: 4,
+    id: 5,
     name: "Brethren College Chika",
     description:
       "A modern and responsive website developed for Brethren College Chika to showcase school programs, admissions, and frequently asked questions. It includes dynamic sections for program details, staff details, and an engaging UI to support a seamless user experience.",
     Github: "",
     LiveDemo: "https://www.brethrencollegechinka.org/",
     img: images.brethrenCollege, // make sure you have this image in your `images` object
-    tools: ["React", "Tailwind", "Zustand", "Brevo"],
+    tools: ["React", "Tailwind", "Zustand", "Brevo", "Motion"],
   },
   {
-    id: 5,
+    id: 6,
     name: "G.T.DÍPÈ",
     description:
       "Designed and developed an interactive author website to showcase books and engage readers. The platform includes a dynamic book catalog, author bio section, and a newsletter subscription feature for email marketing, enhancing audience connection and content distribution.",
     Github: "",
     LiveDemo: "https://www.gtdipe.com",
     img: images.gtdipe,
-    tools: ["React", "Tailwind", "Zustand", "Express", "Nodejs", "Brevo"],
+    tools: [
+      "React",
+      "Tailwind",
+      "Zustand",
+      "Express",
+      "Nodejs",
+      "Brevo",
+      "Motion",
+    ],
   },
-  {
-    id: 6,
-    name: "IP Address Tracker",
-    description:
-      "A tool for tracking the location and details of any IP address. Integrated with Leaflet.js for map visualization.",
-    Github: "https://github.com/ObodoakorDavid/FM-IP-Address-Tracker",
-    LiveDemo: "https://fm-ip-address-tracker-main.netlify.app/",
-    tools: ["React", "Bootstrap", "Leafletjs"],
-    img: images.IPAddressTracker,
-  },
+  // {
+  //   id: 6,
+  //   name: "IP Address Tracker",
+  //   description:
+  //     "A tool for tracking the location and details of any IP address. Integrated with Leaflet.js for map visualization.",
+  //   Github: "https://github.com/ObodoakorDavid/FM-IP-Address-Tracker",
+  //   LiveDemo: "https://fm-ip-address-tracker-main.netlify.app/",
+  //   tools: ["React", "Bootstrap", "Leafletjs"],
+  //   img: images.IPAddressTracker,
+  // },
 
   // {
   //   id: 3,

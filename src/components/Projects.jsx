@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div id="projects" className="pt-20">
       <p className="pb-6">Projects</p>
-      <div className="grid  sm:grid-cols-2 md:grid-cols-3 gap-5">
+      <div className="grid  sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {data.ReactData.map((project, i) => {
           return (
             <div

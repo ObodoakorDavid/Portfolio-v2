@@ -32,6 +32,7 @@ import gtdipe from "../assets/images/Screenshot 2025-02-07 153004.png";
 import brethrenCollege from "./images/brethrencollege.png";
 import surefundx from "./images/surefundx.png";
 import talents527 from "./images/talents527.png";
+import icoplms from "./images/icop-lms.png";
 
 // =======================
 
@@ -69,4 +70,5 @@ export const images = {
   surefundx,
   logiralms,
   talents527,
+  icoplms,
 };
